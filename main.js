@@ -9,7 +9,7 @@ car.draw(ctx);
 animate();
 
 function animate(){
-    car.update();
+    car.update(road.borders);
     car.sensor.update();
     canvas.height= window.innerHeight;
 
